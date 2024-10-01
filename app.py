@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit.components.v1 import html
 
-# Custom CSS to style the page with improved color scheme, layout, and 8mm rainbow borders
+
 st.markdown("""
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
@@ -166,9 +166,6 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# The rest of the code remains the same...
-
-# Header with animated name and floating logo
 st.markdown("""
     <div class='header rainbow-border'>
         <h1>
@@ -180,7 +177,7 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-# JavaScript for floating logo animation and interactivity
+
 st.markdown("""
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -217,7 +214,6 @@ st.markdown("""
     </script>
 """, unsafe_allow_html=True)
 
-# About Section
 st.markdown("<h2 class='section-title'>About</h2>", unsafe_allow_html=True)
 st.markdown("""
     <div class='content-box rainbow-border'>
@@ -227,7 +223,6 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-# Skills Section with animated progress bars
 st.markdown("<h2 class='section-title'>Skills</h2>", unsafe_allow_html=True)
 skills = [
     ("Python", 90),
@@ -251,7 +246,6 @@ for skill, proficiency in skills:
     """, unsafe_allow_html=True)
 st.markdown("</div>", unsafe_allow_html=True)
 
-# Experience Section
 st.markdown("<h2 class='section-title'>Experience</h2>", unsafe_allow_html=True)
 experiences = [
     ("Innovation Lead", "Entrepreneurship Cell Nalanda", "2023", "Leading innovative projects and mentoring aspiring entrepreneurs. Focus on driving growth through tech-enabled solutions."),
@@ -269,7 +263,6 @@ for title, company, year, description in experiences:
         </div>
     """, unsafe_allow_html=True)
 
-# Achievements Section
 st.markdown("<h2 class='section-title'>Achievements</h2>", unsafe_allow_html=True)
 achievements = [
     ("October 2023 | IIT Kharagpur", "Recognized for outstanding performance in a prestigious competition."),
@@ -287,7 +280,6 @@ for achievement, description in achievements:
         </div>
     """, unsafe_allow_html=True)
 
-# Contact Section
 st.markdown("<h2 class='section-title'>Contact Me</h2>", unsafe_allow_html=True)
 st.markdown("""
     <div class='content-box rainbow-border'>
@@ -297,5 +289,4 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-# Footer
 st.markdown("<div class='footer rainbow-border'><p>&copy; 2024 Abhinandan Parhi Portfolio. All rights reserved.</p></div>", unsafe_allow_html=True)
