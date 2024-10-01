@@ -284,7 +284,8 @@ st.markdown("<h2 class='section-title'>Contact Me</h2>", unsafe_allow_html=True)
 st.markdown("""
     <div class='content-box rainbow-border'>
         <p>Feel free to reach out for collaborations or just a friendly hello.</p>
-        <p>Email: abhinandanparhi48@google.com</p>
+        <p>Email: abhinandanparhi48@gmail.com</p>
+        <p>Phone: +91 63722 02830</p>
         <a href='https://www.linkedin.com/in/abhinandan-parhi-ap/' class='btn rainbow-border'>LinkedIn</a>
     </div>
 """, unsafe_allow_html=True)
