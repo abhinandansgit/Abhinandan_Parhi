@@ -92,6 +92,7 @@ st.markdown("""
             margin-bottom: 20px;
             transition: all 0.3s ease;
         }
+        
         .content-box:hover {
             transform: translateY(-5px);
             box-shadow: 0 6px 8px rgba(233, 69, 96, 0.2);
